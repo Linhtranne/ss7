@@ -1,0 +1,23 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(226, 223, 223);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li::before {
+    content: '\2022';
+    color: #007bff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.background{
+    background-color: rgb(236, 232, 232);
+}
