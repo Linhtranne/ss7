@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.user-info {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.info-row {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.info-label {
+    width: 100px;
+    color: #969494;
+    margin: 2px;
+}
+
+.info-value {
+    flex-grow: 10;
+}

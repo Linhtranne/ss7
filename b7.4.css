@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.avatar-container {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+
+.rounded-avatar {
+    width: 100%;
+    height: 100%;
+
+}
